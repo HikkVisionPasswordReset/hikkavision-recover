@@ -17,23 +17,32 @@ Install MinGw for Windows buildings
 Download hikkavision-recover source and extract to Home directory
 
 ---------------------------------------------------
-
-# apt-get install golang
-# mkdir ~/workspace
-# echo 'export GOPATH="$HOME/workspace"' >> ~/.bashrc
-# source ~/.bashrc
-# go get github.com/fatih/color
-# apt-get install mingw-w64
-# cd ~/hikkavision-recover-master
-# make
-or
-# make linux
-or
-# make windows
-
 <br>
-
-And now you have a `build` directory with compiled app.
+apt-get install golang
+<br>
+mkdir ~/workspace
+<br>
+echo 'export GOPATH="$HOME/workspace"' >> ~/.bashrc
+<br>
+source ~/.bashrc
+<br>
+go get github.com/fatih/color
+<br>
+apt-get install mingw-w64
+<br>
+cd ~/hikkavision-recover-master
+<br>
+make
+<br>
+or
+<br>
+make linux
+<br>
+or
+<br>
+make windows
+<br>
+And now you have a `build` directory with compiled app
 
 ## Usage
 
@@ -45,9 +54,8 @@ You can define some options:
 * __-threads__ — there's no multithreading until you define in how many threads you want to do a job;
 * __-csv__ — write results to CSV file.
 
-
 __Please note that it is hardcoded to read IPs from file called “hosts”!__
 
 A typical cammand is:
 
-    hikkavision-recover -threads 200 -check -shoots pics/
+hikkavision-recover -threads 200 -check -shoots pics/
