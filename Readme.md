@@ -14,7 +14,7 @@ Setup Go Language
 <br>
 Install MinGw for Windows buildings
 <br>
-Download hikkavision-recover and extract to Home directory
+Download hikkavision-recover source and extract to Home directory
 
 ---------------------------------------------------
 
@@ -26,27 +26,14 @@ Download hikkavision-recover and extract to Home directory
 # apt-get install mingw-w64
 # cd ~/hikkavision-recover-master
 # make
+or
+# make linux
+or
+# make windows
 
----------------------------------------------------
-
-I'm using a makefile, so you should be able to build it under Linux using this command:
-
-    # make linux
-
-
-You can also build it for Windows if you have a MinGW installed:
-
-    # make windows
-
-    
-And you can make binaries for Linux and Windows by omiting a make target (it is useful for me as I distribute every build to people who don't know anything about compilers):
-
-    # make
-
+<br>
 
 And now you have a `build` directory with compiled app.
-
----
 
 ## Usage
 
