@@ -3,13 +3,17 @@
 ---
 
 ## Building
-
+<br>
 Install Kali Linux
-
+<br>
 Install Go Language
+<br>
 Install Go Language Color Addon
+<br>
 Setup Go Language
+<br>
 Install MinGw for Windows buildings
+<br>
 Download hikkavision-recover and extract to Home directory
 
 ---------------------------------------------------
