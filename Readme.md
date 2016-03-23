@@ -33,16 +33,8 @@ apt-get install mingw-w64
 cd ~/hikkavision-recover-master
 <br>
 make
-<br>
-or
-<br>
-make linux
-<br>
-or
-<br>
-make windows
-<br>
-And now you have a `build` directory with compiled app
+
+And now you have a `build` directory with compiled app for Windows and Linux
 
 ## Usage
 
